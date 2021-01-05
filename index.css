@@ -1,0 +1,47 @@
+#Clock-body{
+    height: 40vw;
+    width: 40vw;
+    background-image: url(clock1.png);
+    background-size: 100%;
+    margin: auto;
+    position: relative;
+  margin-top: 50px;
+    
+    
+
+}
+#hour-hand,#minute-hand,#second-hand{
+    position: absolute;
+    background: black;
+    transform-origin: bottom;
+    border-radius: 10px;
+}
+#hour-hand{
+ width: 1%;
+    left: 49.2%;
+    top: 25%;
+    height: 23%;
+    opacity: 0.5;
+    
+}
+#minute-hand{
+  width: 1%;
+    height: 35%;
+    top:12%;
+    
+    left:49.2%;
+    opacity: 0.5;
+    
+    
+     
+   
+}
+#second-hand{
+    width: 1%;
+    left: 49.2%;
+    top:8%;
+    height: 40%;
+    opacity: 0.5;
+ 
+    
+}
